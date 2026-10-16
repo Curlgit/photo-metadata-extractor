@@ -26,35 +26,40 @@ Before installing, make sure you have:
 - Pillow (Python Imaging Library)
 - Internet access for package installation
 
-🚀 Installation Guide
+**🚀 Installation Guide**
 
 Step 1 — Update Termux
 
-Update your package list before installing dependencies.
+**Update your package list before installing dependencies**
 ```bash
 pkg update && pkg upgrade -y
 ```
-Step 2 — Install Git
+**Step 2 — Install Git**
 ```bash
 pkg install git -y
 ```
-Step 3 — Clone the Repository
+**Step 3 — Clone the Repository**
 ```bash
 git clone https://github.com/Curlgit/photo-metadata-extractor.git
 ```
-Step 4 — Enter the Project Directory
+**Step 4 — Enter the Project Directory**
 ```bash
 cd photo-metadata-extractor
 ```
-Step 5 — Run the Installer
+**Step 5 — Run the Installer**
 
-Make the installation script executable:
+**6 Make the installation script executable**
 ```bash
 chmod +x install.sh
 ```
-Start the installer using Bash:
+**7 Start the installer using Bash**
 ```bash
 bash install.sh
+```
+Step 8
+**Run tool**
+```bash
+python'photo incementa stacker.py'
 ```
 The installer attempts to set up Python, Git, the required build dependencies, and Pillow. It also installs "requests", as included in the installation script.
 
