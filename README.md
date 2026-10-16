@@ -40,11 +40,11 @@ pkg install git -y
 ```
 Step 3 — Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/Curlgit/photo-metadata-extractor.git
 ```
 Step 4 — Enter the Project Directory
 ```bash
-cd 
+cd photo-metadata-extractor
 ```
 Step 5 — Run the Installer
 
